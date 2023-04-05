@@ -13,9 +13,9 @@ static const struct
     float r, g, b;
 } vertices[3] =
 {
-    { -0.66f, -0.33f, 1.f, 0.f, 0.f },
-    {  0.66f, -0.33f, 0.f, 1.f, 0.f },
-    {   0.f,  0.66f, 0.f, 0.f, 1.f }
+    { -0.866f, -0.5f, 1.f, 0.f, 0.f },
+    {  0.866f, -0.5f, 0.f, 1.f, 0.f },
+    {   0.f,  1.0f, 0.f, 0.f, 1.f }
 };
  
 static const char* vertex_shader_text =
